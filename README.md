@@ -61,7 +61,7 @@ $ gulp serve
 | Edit an animal | Polar Bear, Frosty, 6, Carnivore, Polar Cove, 5, Female, Having Ice caps to sleep on, Swimming long distances | Species: Polar Bear, Name: Frost, Age: 6, Location: Polar Cove, Caretakers: 5, Gender: Female, Animal Likes: Having Ice caps to sleep on, Animal Dislikes: Swimming long distances |
 
 ## Future Exploration
-* _To add more functionality to this application it would be nice to an API that could be used to populate the database with animals and the other information. As well as having the functionality to add animals by hand. _
+* _To add more functionality to this application it would be nice to an API that could be used to populate the database with animals and the other information. As well as having the functionality to add animals by hand._
 * _Another functionality that would be great would be to have a calculation that could tell the zoo how many caretakers they need on hand at a time._
 
 ## Questions or Concerns
