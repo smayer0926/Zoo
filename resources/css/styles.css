@@ -8,10 +8,11 @@ body {
   background-size: cover;
 }
 .image{
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 60%;
+  max-width: 60%;
   border-radius: 5px;
-
+  display: block;
+  margin: auto;
 }
 .well {
   background-color: rgba(81, 81, 81, 0.9);
@@ -30,7 +31,10 @@ li {
 }
 #head{
   text-align: center;
-
+}
+#buttonControl {
+  display: block;
+  margin: auto;
 }
 a {
   color: white;
@@ -63,9 +67,13 @@ label {
 }
 select{
   font-size: 20px;
+  color: #38BAE2;
 }
 h3 {
   text-align: center;
+}
+input {
+  color: #38BAE2;
 }
 .listOfAnimals{
   color: #32a7cb;

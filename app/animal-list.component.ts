@@ -27,8 +27,8 @@ import { Animal } from './animal.model';
        <li><span class="listOfAnimals">Animal Likes: </span>{{currentAnimal.like}}</li>
        <li><span class="listOfAnimals">Animal Dislikes: </span>{{currentAnimal.dislike}}</li>
        </ul>
-         <a href="#editAnimal"><button class="btn" (click)="editButtonHasBeenClicked(currentAnimal)">Edit
-         {{currentAnimal.animalSpecies}}</button></a>
+         <a href="#editAnimal"><button class="btn" id="buttonControl" (click)="editButtonHasBeenClicked(currentAnimal)">Edit
+         {{currentAnimal.name}}</button></a>
      </ul>
 
   `
