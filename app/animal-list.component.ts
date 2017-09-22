@@ -8,13 +8,23 @@ import { Animal } from './animal.model';
       <h3>All animals that we currently have are listed below</h3>
       <h4>To see the details on <em>young (under 2)</em> or <em>older (above 2)</em> animals, select an option below:</h4>
       <select (change)="onChange($event.target.value)">
-        <option value="allAnimals" select="selected">All Animals</option>
+        <option value="" selected disabled>Select By Age</option>
+        <option value="allAnimals">All Animals</option>
         <option value = "lessThan2"> Animals Younger than 2</option>
         <option value = "greaterThan2"> Animals Older than 2</option>
       </select>
+      </div>
+      <div id="food">
+      <select (change)="onChange2($event.target.value)">
+        <option value="" selected disabled>Select Based on Food Eaten</option>
+        <option value = "Herbivore"> Herbivores</option>
+        <option value = "Carnivore"> Carnivores</option>
+        <option value = "Omnivore"> Omnivores</option>
+        <option value="allAnimals">All Animals</option>
+      </select>
     </div>
      <ul>
-      <li (click)="(currentAnimal)" *ngFor="let currentAnimal of childAnimalList | sorting:ageFilter">
+      <li (click)="(currentAnimal)" *ngFor="let currentAnimal of childAnimalList | sorting:ageFilter | diet:dietFilter">
       <hr>
         <h3 class="species">{{currentAnimal.animalSpecies}}</h3>
       <ul>
@@ -40,9 +50,13 @@ export class AnimalListComponent{
   @Input() childAnimalList: Animal[];
   @Output() clickSender = new EventEmitter();
   ageFilter: string = "allAnimals";
+  dietFilter: string ="allAnimals";
 
   onChange(optionFromZoo){
     this.ageFilter = optionFromZoo;
+  }
+  onChange2(optionOfZoo){
+    this.dietFilter = optionOfZoo;
   }
   editButtonHasBeenClicked(animalToEdit: Animal){
     this.clickSender.emit(animalToEdit);

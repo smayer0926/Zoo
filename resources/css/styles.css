@@ -63,7 +63,11 @@ label {
 .animalsNew {
   text-align: left;
 }
-#animalList{
+#animalList {
+  text-align: center;
+}
+#food{
+  margin-top: 10px;
   text-align: center;
 }
 select{

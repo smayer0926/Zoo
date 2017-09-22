@@ -31,7 +31,7 @@ export class AppComponent{
      new Animal('./resources/images/polar.jpg', 'Polar Bear', 'Nora', 4, 'Carnivore', 'Polar Cove', 5, 'Female', 'Having Ice Caps to rest on', 'Swimming Long Distances'),
      new Animal('./resources/images/koala.jpg', 'Koala', 'Sleepy', 2, 'Herbivore', 'Near the bears', 2, 'Male', 'Sleeping in trees and not being bothered', 'Being bothered'),
      new Animal('./resources/images/kangaroo.jpg', 'Kangaroo', 'Joy', 3, 'Herbivore', 'Near the bears', 4, 'Female', 'Eating cones full of seeds and boxing', 'Being challenged by another kangaroo'),
-     new Animal('./resources/images/badger.jpg', 'Honey Badger', 'Tom', 15, 'In the weasel section', 'Carnivore', 1, 'Male', 'Finding beehives and eating all the honey', 'Having other honey badgers enter their cave')
+     new Animal('./resources/images/badger.jpg', 'Honey Badger', 'Tom', 15, 'Carnivore', 'In the weasel section', 1, 'Male', 'Finding beehives and eating all the honey', 'Having other honey badgers enter their cave')
     ];
 
   newAnimal(newAnimalFromChild: Animal){
