@@ -60,7 +60,10 @@ $ gulp serve
 | View all Animals | View all Animals | All animals shown |
 | Edit an animal | Polar Bear, Frosty, 6, Carnivore, Polar Cove, 5, Female, Having Ice caps to sleep on, Swimming long distances | Species: Polar Bear, Name: Frost, Age: 6, Location: Polar Cove, Caretakers: 5, Gender: Female, Animal Likes: Having Ice caps to sleep on, Animal Dislikes: Swimming long distances |
 
-## Questions or Concerns ##
+## Future Exploration
+_To add more functionality to this application it would be nice to an API that could be used to populate the database with animals and the other information. As well as having the functionality to add animals by hand._
+
+## Questions or Concerns
 _If there are any questions or concerns, please contact me at smayer0926@gmail.com_
 
 ## Known Bugs
