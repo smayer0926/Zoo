@@ -17,7 +17,7 @@ import { Animal } from './animal.model';
         <label>Edit Number of Caretakers:</label>
         <input [(ngModel)]="childSelectedAnimal.caretakers" type="number">
       </div>
-      <button (click)="editButtonClicked()">Edit Animal!</button>
+      <a href="#head"><button class="btn" (click)="editButtonClicked()">Edit Animal!</button></a>
   </div>
   `
 })

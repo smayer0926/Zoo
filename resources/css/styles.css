@@ -1,0 +1,45 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background: url('../../images/background1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image{
+  max-height: 80%;
+  max-width: 80%;
+  border-radius: 5px;
+
+}
+.well {
+  background-color: rgba(255,255,255, .3)
+}
+.btn {
+  height: 40px;
+  width: 50px;
+  font-size: 13px;
+}
+li {
+  list-style: none;
+}
+#head{
+  /*text-align: center;*/
+
+}
+.new {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.newAnimalInput{
+  width: 200px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+select {
+  width: 300px;
+  font-size: 20px;
+}
