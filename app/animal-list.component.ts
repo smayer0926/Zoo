@@ -6,7 +6,7 @@ import { Animal } from './animal.model';
   template: `
     <div id="animalList">
       <h3>All animals that we currently have are listed below</h3>
-      <h5>To see the details on <em><strong>young</strong></em> or <em><strong>older</strong></em> animals, select an option below:</h5>
+      <h4>To see the details on <em>young (under 2)</em> or <em>older (above 2)</em> animals, select an option below:</h4>
       <select (change)="onChange($event.target.value)">
         <option value="allAnimals" select="selected">All Animals</option>
         <option value = "lessThan2"> Animals Younger than 2</option>

@@ -5,7 +5,7 @@ import { Animal } from './animal.model';
   selector: 'new-animal',
   template: `
   <div class="well" id="animalsNew">
-    <h2>Add a New Animal to our system!</h2>
+    <h2>Add a New Animal to our Zoo!</h2>
     <h4>Please enter the following information to add an animal to our system<h4>
     <hr>
     <div>
