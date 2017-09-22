@@ -16,7 +16,7 @@ import { Animal } from './animal.model';
       <hr>
         <h3 class="species">{{currentAnimal.animalSpecies}}</h3>
       <ul>
-       <li><img class="image" src='{{currentAnimal.img}}'/></li>
+       <li><img class="image" src='{{currentAnimal.img}}' alt="picture of the animal"/></li>
        <li><span class="listOfAnimals">Name: </span>{{currentAnimal.name}}</li>
        <li><span class="listOfAnimals">Age: </span>{{currentAnimal.age}}</li>
        <li><span class="listOfAnimals">Diet: </span>{{currentAnimal.diet}}</li>

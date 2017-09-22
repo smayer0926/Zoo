@@ -4,7 +4,6 @@ import { Animal } from './animal.model'
 @Component({
   selector: 'app-root',
   template: `
-  <div id="wrapper">
     <div class="container">
       <div id="head" class="well">
         <h1 class="welcome">Welcome to the Zoo!</h1>
@@ -21,7 +20,7 @@ import { Animal } from './animal.model'
         <new-animal (newAnimalSender)="newAnimal($event)"></new-animal>
       </div>
     </div>
-  </div>
+
   `
 })
 

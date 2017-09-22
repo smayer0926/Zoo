@@ -4,8 +4,8 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'new-animal',
   template: `
-  <div class="well">
-    <h1>Enter a New Animal</h1>
+  <div class="well" id="animalsNew">
+    <h2>Add a New Animal to our system!</h2>
     <h4>Please enter the following information to add an animal to our system<h4>
     <hr>
     <div>
@@ -32,11 +32,11 @@ import { Animal } from './animal.model';
       <input class="newAnimalInput" #location >
     </div>
     <div>
-      <label>Enter Number of Caretakers Required:</label>
+      <label>Enter Number of Caretakers:</label>
       <input class="newAnimalInput" #caretakers type="number">
     </div>
     <div>
-    <p>Select the gender</p>
+    <label>Select gender</label>
       <select class="newAnimalInput" #gender (change)="onChange($event.target.value)">
          <option value="female" selected="selected">Female</option>
          <option value="male">Male</option>
@@ -52,7 +52,7 @@ import { Animal } from './animal.model';
       </div>
 
 
-        <a href="#head"><button class="btn new" (click)="submitForm(newImage.value, animalSpecies.value, name.value, age.value, diet.value, location.value, caretakers.value, gender.value, like.value, dislike.value)">Create Animal!</button></a>
+        <a href="#head"><button class="btn new" (click)="submitForm(newImage.value, animalSpecies.value, name.value, age.value, diet.value, location.value, caretakers.value, gender.value, like.value, dislike.value); newImage.value =''; animalSpecies.value = ''; name.value = ''; age.value = ''; diet.value =''; location.value =''; caretakers.value = ''; gender.value = ''; like.value = ''; dislike.value = '';">Create Animal!</button></a>
     </div>
   `
 })
