@@ -9,7 +9,7 @@ import { Animal } from './animal.model';
     <h4>Please enter the following information to add an animal to our system<h4>
     <hr>
     <div>
-      <label>Enter link to Animal's Image:</label>
+      <label>Image Link for Animal:</label>
       <input class="newAnimalInput" #newImage>
     <div>
      <label>Enter Animal Species:</label>
@@ -28,26 +28,27 @@ import { Animal } from './animal.model';
       <input class="newAnimalInput" #diet >
     </div>
     <div>
-      <label>Enter Animals location in the zoo:</label>
+      <label>Enter Animals location:</label>
       <input class="newAnimalInput" #location >
     </div>
     <div>
-      <label>Enter Number of Caretakers:</label>
+      <label>Number of Caretakers:</label>
       <input class="newAnimalInput" #caretakers type="number">
     </div>
     <div>
-    <label>Select gender</label>
+    <label>Select Animals gender</label>
       <select class="newAnimalInput" #gender (change)="onChange($event.target.value)">
-         <option value="female" selected="selected">Female</option>
+         <option value="" selected disabled>Select Gender</option>
+         <option value="female" >Female</option>
          <option value="male">Male</option>
       </select>
       </div>
       <div>
-        <label>Enter a like of the animal:</label>
+        <label>Enter animals likes:</label>
         <input class="newAnimalInput" #like >
       </div>
       <div>
-        <label>Enter a dislike of the animal:</label>
+        <label>Enter animals dislikes:</label>
         <input class="newAnimalInput" #dislike >
       </div>
 

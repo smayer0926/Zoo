@@ -4,13 +4,15 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'animal-list',
   template: `
-  <h4>All animals that we currently have are listed below</h4>
-  <p>To see the details on <strong>young</strong> or <strong>older</strong> animals, select an option below:</p>
-  <select (change)="onChange($event.target.value)">
-    <option value="allAnimals" select="selected">All Animals</option>
-    <option value = "lessThan2"> Animals Younger than 2</option>
-    <option value = "greaterThan2"> Animals Older than 2</option>
-  </select>
+    <div id="animalList">
+      <h3>All animals that we currently have are listed below</h3>
+      <h5>To see the details on <em><strong>young</strong></em> or <em><strong>older</strong></em> animals, select an option below:</h5>
+      <select (change)="onChange($event.target.value)">
+        <option value="allAnimals" select="selected">All Animals</option>
+        <option value = "lessThan2"> Animals Younger than 2</option>
+        <option value = "greaterThan2"> Animals Older than 2</option>
+      </select>
+    </div>
      <ul>
       <li (click)="(currentAnimal)" *ngFor="let currentAnimal of childAnimalList | sorting:ageFilter">
       <hr>
@@ -25,7 +27,8 @@ import { Animal } from './animal.model';
        <li><span class="listOfAnimals">Animal Likes: </span>{{currentAnimal.like}}</li>
        <li><span class="listOfAnimals">Animal Dislikes: </span>{{currentAnimal.dislike}}</li>
        </ul>
-         <button class="btn" (click)="editButtonHasBeenClicked(currentAnimal)">Edit {{currentAnimal.species}}!</button>
+         <a href="#editAnimal"><button class="btn" (click)="editButtonHasBeenClicked(currentAnimal)">Edit
+         {{currentAnimal.animalSpecies}}</button></a>
      </ul>
 
   `

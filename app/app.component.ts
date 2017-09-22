@@ -9,11 +9,11 @@ import { Animal } from './animal.model'
         <h1 class="welcome">Welcome to the Zoo!</h1>
         <h3 class="head">Checkout the animals that we have at our location below!</h3>
         <h4 class="head">To add a new animal to our system<a href="#newanimal"> Click Here</a></h4>
-      <div>
+      </div>
       <div class="well">
         <animal-list [childAnimalList] ="masterAnimal" (clickSender)="editButtonClicked($event)"></animal-list>
       </div>
-      <div id="edit-animal">
+      <div id="editAnimal">
         <edit-animal [childSelectedAnimal] = "selectedAnimal" (editButtonClickedSender) = "finishedEditing()"></edit-animal>
       </div>
       <div id="newanimal">
