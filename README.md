@@ -1,4 +1,4 @@
-# Zoo
+# The Zoo
 
 #### Epicodus JavaScript Week 3 Project, September 22, 2017
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application uses Angular....._
+_This application uses Angular and Typescript to create a zoo intake form to keep track of the animals. The form allows a person to add an image of the animal as well as other important details about the animal. After an animal is added, it can also be edited, allowing the user to correct mistakes when they are made._
 
 ##
 ![Image of Main page](images/)
@@ -28,18 +28,12 @@ $ git clone https://github.com/smayer0926/Zoo
 * Experiment!
 
 _To use tis project you will need the following installed properly on your computer._
-* [Node.js](https://nodejs.org/en/)
-* Once installed, you will need to install gulp and bower:
+* You will need to install gulp and bower:
 
 ````
 $ npm install
 $ bower install
 ````
-
-
-* Sign up for a free account, if you don't already have one.
-* Copy your API Key that is provided into a file that you create in the project called .env.
-* In this file write: exports.apiKey = "YOUR-API-KEY-GOES-HERE"; and save the file.
 * Make sure to rebuild the file after making any changes to the js files, using:
 ````
 $ gulp build
@@ -54,7 +48,10 @@ $ gulp serve
 
 | Behavior      | Example Input      | Example Output       |
 | ------------- | ------------- | ------------- |
-|
+| Add an animal to the zoo using a form | Polar Bear, Polar, 4, Carnivore, Polar Cove, 5, Female, Having Ice caps to sleep on, Swimming long distances | Species: Polar Bear, Name: Polar, Age: 4, Location: Polar Cove, Caretakers: 5, Gender: Female, Animal Likes: Having Ice caps to sleep on, Animal Dislikes: Swimming long distances |
+| Sort by age | See animals under 2 | No results found |
+| View all Animals | View all Animals | All animals shown |
+| Edit an animal | Polar Bear, Frosty, 6, Carnivore, Polar Cove, 5, Female, Having Ice caps to sleep on, Swimming long distances | Species: Polar Bear, Name: Frost, Age: 6, Location: Polar Cove, Caretakers: 5, Gender: Female, Animal Likes: Having Ice caps to sleep on, Animal Dislikes: Swimming long distances |
 
 ## Questions or Concerns ##
 _If there are any questions or concerns, please contact me at smayer0926@gmail.com_
@@ -68,6 +65,7 @@ _No known bugs at this time._
 * _Gulp_
 * _Bower_
 * _Angular_
+* _TypeScript_
 
 
 ### License
