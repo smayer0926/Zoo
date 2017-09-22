@@ -11,7 +11,7 @@ import { Animal } from './animal.model';
   </select>
      <ul>
        <li (click)="(currentAnimal)" *ngFor="let currentAnimal of childAnimalList | sorting:ageFilter ">  {{currentAnimal.animalSpecies}} <br>{{currentAnimal.name}} <br>{{currentAnimal.age}} <br> {{currentAnimal.diet}} <br> {{currentAnimal.diet}} {{currentAnimal.location}} <br> {{currentAnimal.caretakers}} <br> {{currentAnimal.gender}} <br> {{currentAnimal.like}} <br>{{currentAnimal.dislike}}
-         <button (click)="editButtonHasBeenClicked(currentKeg)">Edit!</button>
+         <button (click)="editButtonHasBeenClicked(currentAnimal)">Edit!</button>
        </li>
      </ul>
 
@@ -27,6 +27,9 @@ export class AnimalListComponent{
 
   onChange(optionFromZoo){
     this.ageFilter = optionFromZoo;
+  }
+  editButtonHasBeenClicked(animalToEdit: Animal){
+    this.clickSender.emit(animalToEdit);
   }
 
 
