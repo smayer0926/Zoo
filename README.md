@@ -4,25 +4,43 @@
 
 #### By Stephanie Mayer
 
+## Table Of Contents
+======================
+* [Description](#Description)
+* [View Of Application](#View-of-Application)
+* [SetUp and Installation](#Setup/Installation-Requirements)
+* [Specifications](#Specifications)
+* [Future Exploration](#Future-Exploration)
+* [Questions or Concerns](#Questions-or-concerns)
+* [Known Bugs](#Known-Bugs)
+* [Technologies User](#Technologies-Used)
+
+
+
+
+
+
 ## Description
 
 _This application uses Angular and Typescript to create a zoo intake form to keep track of the animals. The form allows a person to add an image of the animal as well as other important details about the animal. After an animal is added, it can also be edited, allowing the user to correct mistakes when they are made._
 
-## An image of the front page of the application
+
+## View of Application
+### An image of the front page of the application
 ![Image of Main page](images/screenshot.png)
-## A look at all the animals that are at the zoo
+### A look at all the animals that are at the zoo
 ![Looking up results](images/screenshot1.png)
-## The ability to edit Tom, the honey Badger. Or any animal
+### The ability to edit Tom, the honey Badger. Or any animal
 ![Looking up results](images/screenshot2.png)
-## Add a new animal to the zoo
+### Add a new animal to the zoo
 ![Looking up results](images/screenshot3.png)
-## Sort by the animals diet
+### Sort by the animals diet
 ![Looking up results](images/screenshot4.png)
-## Sort by the animals age
+### Sort by the animals age
 ![Looking up results](images/screenshot5.png)
-## An image of the sort function in action
+### An image of the sort function in action
 ![Looking up results](images/screenshot6.png)
-## Sort by their diet and age, to find the animals that match that query
+### Sort by their diet and age, to find the animals that match that query
 ![Looking up results](images/screenshot7.png)
 
 
