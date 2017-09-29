@@ -5,7 +5,7 @@
 #### By Stephanie Mayer
 
 ## Table Of Contents
-======================
+
 * [Description](#description)
 * [View Of Application](#view-of-application)
 * [Set-Up Requirements](#setup-requirements)
