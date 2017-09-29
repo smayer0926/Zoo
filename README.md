@@ -6,14 +6,14 @@
 
 ## Table Of Contents
 ======================
-* [Description](#Description)
-* [View Of Application](#View-of-Application)
-* [SetUp and Installation](#Setup/Installation-Requirements)
-* [Specifications](#Specifications)
-* [Future Exploration](#Future-Exploration)
-* [Questions or Concerns](#Questions-or-concerns)
-* [Known Bugs](#Known-Bugs)
-* [Technologies User](#Technologies-Used)
+* [Description](#description)
+* [View Of Application](#view-of-application)
+* [SetUp and Installation](#setup/installation-requirements)
+* [Specifications](#specifications)
+* [Future Exploration](#future-exploration)
+* [Questions or Concerns](#questions-or-concerns)
+* [Known Bugs](#known-bugs)
+* [Technologies User](#technologies-used)
 
 
 
