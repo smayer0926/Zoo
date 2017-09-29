@@ -8,12 +8,12 @@
 ======================
 * [Description](#description)
 * [View Of Application](#view-of-application)
-* [SetUp and Installation](#setup/installation-requirements)
+* [Set-Up Requirements](#setup-requirements)
 * [Specifications](#specifications)
 * [Future Exploration](#future-exploration)
 * [Questions or Concerns](#questions-or-concerns)
 * [Known Bugs](#known-bugs)
-* [Technologies User](#technologies-used)
+* [Technologies Used](#technologies-used)
 
 
 
@@ -44,7 +44,7 @@ _This application uses Angular and Typescript to create a zoo intake form to kee
 ![Looking up results](images/screenshot7.png)
 
 
-## Setup/Installation Requirements
+## Setup Requirements
 * Clone the repo from git hub using:
 ````
 $ git clone https://github.com/smayer0926/Zoo
